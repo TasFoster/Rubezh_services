@@ -1,6 +1,14 @@
 # --- Отдельные сервисы (собственные репозитории, не трекаются в хабе) ---
 Rubezh_tech-support/
 
+# --- Крупные бинарные наборы документации Rubezh ---
+# Сами файлы (PDF, изображения, ПО) хранятся ЛОКАЛЬНО и не пушатся в git.
+# В репозиторий попадают только манифесты, индекс и README.
+/datasets/rubezh-docs/*
+!/datasets/rubezh-docs/_manifests/
+!/datasets/rubezh-docs/README.md
+!/datasets/rubezh-docs/INDEX.md
+
 # --- OS ---
 Thumbs.db
 Desktop.ini
@@ -20,3 +28,6 @@ Desktop.ini
 # --- Временные файлы ---
 *.log
 *.tmp
+
+# --- Артефакты Playwright MCP ---
+.playwright-mcp/
