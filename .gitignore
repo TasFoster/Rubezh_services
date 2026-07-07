@@ -1,0 +1,22 @@
+# --- Отдельные сервисы (собственные репозитории, не трекаются в хабе) ---
+Rubezh_tech-support/
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Секреты / окружение ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- Временные файлы ---
+*.log
+*.tmp
